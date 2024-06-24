@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+   
+}
+body{
+    margin: 0;
+}
+.width{
+    display: flex;
+    height: 100vh;
+
+}
+.leftimg{
+    width: 50%;
+    height: 100vh;
+}
+
+form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.p1{
+    width: 367px;
+    height: 49px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49.1px;
+    color:  rgba(82, 82, 82, 1);
+}
+.p2{
+    width: 289px;
+    height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(82, 82, 82, 1);
+   
+}
+.button{
+    width: 420px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgba(232, 232, 232, 1) ;
+    text-align: center;
+    background-image: url(image\ 2.png);
+    background-repeat: no-repeat;
+    background-position: 25%;
+    color: rgba(130, 130, 130, 1);
+    background-color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19.1px;
+    }
+.p3{
+    width: 254px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 12px;
+    color: rgba(161, 161, 161, 1);
+    margin: auto;
+    
+}
+.google,.p3, .leb, .leb1, button {
+margin-top: 30px;
+}
+    
+
+
+.email1{
+    width: 36px;
+    height: 19px;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(130, 130, 130, 1);
+  margin-top: 28px;
+   
+   
+}
+.email{
+    width: 420px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px rgba(222, 210, 217, 1) solid;
+    background-image: url(Vector.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+ 
+    
+}
+.email::placeholder{
+    color: rgba(224, 224, 224, 1);
+    width: 92px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 2%;
+
+}
+.password{
+    width: 63px;
+    height: 19px;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(130, 130, 130, 1);
+    
+}
+.password1{
+    width: 420px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px  rgba(222, 210, 217, 1) solid; 
+    background-image: url(Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.p4{
+   display: flex;
+    width: 317px;
+    height: 25px;
+    font-weight: 400;
+    justify-content: center;
+    margin-top: 100px;
+    
+  }
+ 
+  
+a{
+    width: 99px;
+    height: 16px;
+    font-weight: 600;
+    font-size: 12px;
+    color: 
+    rgba(127, 38, 91, 1);
+    gap: 20px;
+}
+.me{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16,37px;
+    color: rgba(161, 161, 161, 1);
+}
+.diva{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.check{
+    display: flex;
+    justify-content: flex-start;
+}
+button{
+    width: 420px;
+    height: 50px;
+    border-radius: 6px;
+    background-color: rgba(127, 38, 91, 1);
+    color: 
+    rgba(255, 255, 255, 1);
+    font-weight: 800;
+    font-size: 18px;
+
+}
+
+
+
